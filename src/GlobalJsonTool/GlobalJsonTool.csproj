@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>true</IsPackable>
+    <PackAsTool>true</PackAsTool>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>AbstractTools.Tools.GlobalJsonTool</RootNamespace>
+    <AssemblyName>GlobalJsonTool</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Orion</Authors>
+    <Company />
+    <Product />
+    <Description />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="SemanticVersioning" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>
